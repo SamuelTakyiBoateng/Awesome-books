@@ -1,3 +1,8 @@
+const form = document.querySelector('.form');
+const listOfBooks = document.querySelector('.container');
+const title = document.querySelector('.title');
+const author = document.querySelector('.author');
+
 // Add empty array to localStorage- check if empty and then add []
 if (localStorage.getItem('addedBooks') == null) {
   localStorage.setItem('addedBooks', JSON.stringify([]));
@@ -11,10 +16,7 @@ function updateData() {
 
 // Retrieve data from input field
 /* eslint-disable */
-const form = document.querySelector('.form');
 form.addEventListener('submit', (e) => {
-  const title = document.querySelector('.title');
-  const author = document.querySelector('.author');
   e.preventDefault();
   addNewdata(title.value, author.value);
 });
@@ -35,7 +37,6 @@ function createBooks(arr) {
 
 // Display data from localStorage to UI
 function displayBooks() {
-  const listOfBooks = document.querySelector('.container');
   listOfBooks.innerHTML = `
                     <ul class='book-ul'>
                     ${createBooks(storeData)}</ul>
