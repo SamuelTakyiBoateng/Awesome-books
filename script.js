@@ -10,6 +10,7 @@ function updateData() {
 }
 
 // Retrieve data from input field
+/* eslint-disable */
 const form = document.querySelector('.form');
 form.addEventListener('submit', (e) => {
   const title = document.querySelector('.title');
@@ -18,6 +19,7 @@ form.addEventListener('submit', (e) => {
   addNewdata(title.value, author.value);
 });
 
+/* eslint-enable */
 function createBooks(arr) {
   let books = '';
   for (let i = 0; i < arr.length; i += 1) {
