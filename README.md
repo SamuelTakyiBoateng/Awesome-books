@@ -68,7 +68,7 @@ In order to run this project you need: vs code editor
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/SamuelTakyiBoateng/Capstone-Project-1.git
+git clone https://github.com/SamuelTakyiBoateng/Awesome-books/tree/awesomebook
 
 ### Install
 
