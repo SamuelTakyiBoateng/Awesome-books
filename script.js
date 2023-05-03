@@ -3,6 +3,25 @@ const listOfBooks = document.querySelector('.container');
 const title = document.querySelector('.title');
 const author = document.querySelector('.author');
 
+//All Functions section
+// Adding new data in the local storage
+function addNewdata(bookTitle, bookAuthor) {
+  const Book = {
+    title: bookTitle,
+    author: bookAuthor,
+  };
+  storeData.push(Book);
+  updateData();
+  displayBooks();
+}
+
+// Removing data from local Storage
+function removeBook(i) {
+  storeData.splice(i, 1);
+  updateData();
+  displayBooks();
+}
+
 // Add empty array to localStorage- check if empty and then add []
 if (localStorage.getItem('addedBooks') == null) {
   localStorage.setItem('addedBooks', JSON.stringify([]));
@@ -40,24 +59,6 @@ function displayBooks() {
                     <ul class='book-ul'>
                     ${createBooks(storeData)}</ul>
     `;
-}
-
-// Adding new data in the local storage
-function addNewdata(bookTitle, bookAuthor) {
-  const Book = {
-    title: bookTitle,
-    author: bookAuthor,
-  };
-  storeData.push(Book);
-  updateData();
-  displayBooks();
-}
-
-// Removing data from local Storage
-function removeBook(i) {
-  storeData.splice(i, 1);
-  updateData();
-  displayBooks();
 }
 
 window.onload = displayBooks();

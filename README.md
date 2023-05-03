@@ -23,7 +23,7 @@
 
 # 📖 [Capstone-Project] <a name="about-project"></a>
 
-**Capstone Project**  It provides a homepage of my Module 1 microverse capstone project.
+**AwesomeBook**  It provides a homepage of my Module 2 awesomebook project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,8 +49,8 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name=""></a>
-- **[Live Demo Link](https://samueltakyiboateng.github.io/Capstone-Project-1/)**
-- **[Video Presentation](https://www.loom.com/share/baf4d087d2c84de2b570b8d248e56c7b)**
+- **[Live Demo Link]**
+- **[Video Presentation]**
 
 
 
