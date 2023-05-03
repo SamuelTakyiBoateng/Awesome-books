@@ -15,20 +15,19 @@ function updateData() {
 }
 
 // Retrieve data from input field
-/* eslint-disable */
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   addNewdata(title.value, author.value);
 });
 
-/* eslint-enable */
 function createBooks(arr) {
   let books = '';
   for (let i = 0; i < arr.length; i += 1) {
     books += `
         <p>${arr[i].title}</p>
         <p>${arr[i].author}</p>
-        <button onclick = 'removeBook(${i})'>Remove</button>
+        <button class="remove" onclick='removeBook(${i})'>Remove</button>
         <hr/>
         `;
   }
@@ -60,5 +59,5 @@ function removeBook(i) {
   updateData();
   displayBooks();
 }
-removeBook();
+
 window.onload = displayBooks();
