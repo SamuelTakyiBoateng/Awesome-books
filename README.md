@@ -5,7 +5,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -21,7 +20,7 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Capstone-Project] <a name="about-project"></a>
+# 📖 [Awesome-books] <a name="AwesomeBook-project"></a>
 
 **AwesomeBook**  It provides a homepage of my Module 2 awesomebook project.
 
@@ -44,14 +43,6 @@
 - **[linter_usage]**
 - **[github_pull_request]**
 - **[DOM_JSS]**
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name=""></a>
-- **[Live Demo Link]**
-- **[Video Presentation]**
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -96,7 +87,7 @@ Stylelint: npx stylelint "\*_/_.{css,scss}"
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Desktop_version]**
+- [ ] **[Refactored-version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,8 +108,6 @@ If you like this project, kindly modify or comment where necessary
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
